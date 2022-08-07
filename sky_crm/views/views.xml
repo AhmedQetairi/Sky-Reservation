@@ -1,0 +1,21 @@
+<odoo>
+    <data>
+    <record id="action_sky_management" model="ir.actions.act_window">
+        <field name="name">Billboard</field>
+        <field name="res_model">sky.billboard</field>
+        <field name="view_mode">form,tree,graph</field>
+        <field name="context">{}</field>
+        
+    </record>
+
+   <menuitem id="sky_management_menu_root" name="Sky Management" sequence="0"/>
+       
+   <menuitem id="menu_Billboard" name="Billboard" sequence="10" parent_id="sky_management_menu_root"/> 
+
+    <menuitem id="menu_Sites" name="Site" sequence="20" parent_id="sky_management_menu_root"/>
+
+    </data>
+  
+  
+   
+</odoo>
